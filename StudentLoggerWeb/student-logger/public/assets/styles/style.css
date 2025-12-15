@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Timmana&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(77, 2, 79);
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 30rem;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.para {
+  font-size: 0.9rem;
+  padding: 1rem 0rem;
+  max-width: 25rem;
+}
+.content {
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectName {
+  text-transform: uppercase;
+  font-family: "Timmana", sans-serif;
+  padding-bottom: 1rem;
+}
+.projectImg {
+  width: 15rem;
+}
+.btn-getstarted {
+  color: #fff;
+  border: none;
+  background-color: #512da8;
+  font-size: 0.8rem;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 0.8rem;
+}

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  display: inline-block;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+.name{
+    font-size: 1rem;
+}
+.profile-container {
+  width: 100%;
+  height: auto;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-img img {
+  width: 15rem;
+ object-fit: contain;
+  height: auto;
+  border-radius: 10rem;
+}
+.seller-details {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.joinedAt {
+  font-size: 0.7rem;
+  color: #62646a;
+}
+.joinedAt::before {
+  content: "Joined At";
+  font-size: 0.57rem;
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.location {
+  font-size: 0.7rem;
+  color: #62646a;
+}
+.location::before {
+  content: "\01F4CD Location";
+  font-size: 0.56rem;
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bio {
+  text-align: center;
+  max-width: 600px;
+  padding: 1rem;
+  font-size: 0.98rem;
+}
+.project-header {
+  text-align: center;
+  padding: 1rem;
+}
+.swiper {
+  width: 34rem;
+  height: auto;
+}
+
+.swiper .swiper-slide img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 5px;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: #fff;
+}
+.swiper .swiper-button-next:after,
+.swiper .swiper-button-prev:after {
+  font-size: 1.5rem;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #000;
+}
+.contact-details h2 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.connect-btn {
+  font-size: 2rem;
+  padding: 0.7rem;
+  margin: 2rem 0.5rem;
+}
+.connect-btn:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in;
+}
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-discord {
+  background-color: #7289da;
+  color: #fff;
+}
+.fa-envelope {
+  background-color: #e7c9a9;
+  color: #fff;
+}
+
+.nav-active {
+  height: 200px;
+}
+
+.nav-active li {
+  opacity: 1;
+}
+
+.nav-links li {
+  opacity: 0;
+  animation: navLinkFade 0.5s ease forwards 0.3s;
+}
+
+@media (max-width: 600px) {
+    .name{
+        font-size: 0.9rem;
+    }
+  
+    .profile-img img {
+      width: 10rem;
+     object-fit: contain;
+      height: auto;
+      border-radius: 10rem;
+    }
+    .seller-details {
+      display: flex;
+      align-items: center;
+      width: 18rem;
+      padding: 0.5rem;
+      justify-content: space-between;
+    }
+    .joinedAt {
+      font-size: 0.7rem;
+      color: #62646a;
+    }
+    .joinedAt::before {
+      content: "Joined At";
+      font-size: 0.57rem;
+      display: block;
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .location {
+      font-size: 0.7rem;
+      color: #62646a;
+    }
+    .location::before {
+      content: "\01F4CD Location";
+      font-size: 0.56rem;
+      display: block;
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .bio {
+      text-align: center;
+      max-width: 500px;
+      padding: 1rem;
+      font-size: 0.99rem;
+      margin-bottom: 5rem;
+    }
+    .swiper {
+        width: 30rem;
+        height: auto;
+      }
+      
+}
